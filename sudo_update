@@ -24,3 +24,36 @@ Följande paket kommer att uppgraderas:
 Behöver hämta 18,1 MB arkiv.
 Efter denna åtgärd kommer 4 096 B att frigöras på disken.
 Vill du fortsätta? [J/n] 
+
+jakob@jango-fett:~$ sudo apt-get autoremove 
+Läser paketlistor… Färdig
+Bygger beroendeträd… Färdig
+Läser tillståndsinformation… Färdig
+0 att uppgradera, 0 att nyinstallera, 0 att ta bort och 63 att inte uppgradera.
+jakob@jango-fett:~$ 
+
+
+Bra:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Bra:2 http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu focal InRelease
+Bra:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Bra:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Bra:5 http://archive.ubuntu.com/ubuntu jammy-security InRelease
+Läser paketlistor… Färdig
+Bygger beroendeträd… Färdig
+Läser tillståndsinformation… Färdig
+63 paket kan uppgraderas. Kör ”apt list --upgradable” för att se dem.
+jakob@jango-fett:~$ sudo apt upgrade 
+Läser paketlistor… Färdig
+Bygger beroendeträd… Färdig
+Läser tillståndsinformation… Färdig
+Beräknar uppgradering… Färdig
+Följande paket har hållits tillbaka:
+  evince evince-common fonts-opensymbol gir1.2-pango-1.0 libevdocument3-4 libevview3-3 libmbim-glib4 libmbim-proxy libmm-glib0 libpango-1.0-0 libpango-1.0-0:i386 libpango1.0-0 libpango1.0-dev
+  libpangocairo-1.0-0 libpangocairo-1.0-0:i386 libpangoft2-1.0-0 libpangoft2-1.0-0:i386 libpangoxft-1.0-0 libqmi-glib5 libqmi-proxy libreoffice-avmedia-backend-gstreamer libreoffice-base-core
+  libreoffice-calc libreoffice-common libreoffice-core libreoffice-draw libreoffice-gnome libreoffice-gtk3 libreoffice-help-common libreoffice-help-en-us libreoffice-help-sv libreoffice-impress
+  libreoffice-l10n-sv libreoffice-math libreoffice-ogltrans libreoffice-pdfimport libreoffice-style-breeze libreoffice-style-colibre libreoffice-style-elementary libreoffice-style-galaxy
+  libreoffice-style-tango libreoffice-style-yaru libreoffice-writer libsasl2-2 libsasl2-dev libsasl2-modules libsasl2-modules-db libsasl2-modules-gssapi-mit libsnmp-base libsnmp40 libuno-cppu3
+  libuno-cppuhelpergcc3-3 libuno-purpenvhelpergcc3-3 libuno-sal3 libuno-salhelpergcc3-3 modemmanager pango1.0-tools python3-software-properties python3-uno software-properties-common
+  software-properties-gtk uno-libs-private ure
+0 att uppgradera, 0 att nyinstallera, 0 att ta bort och 63 att inte uppgradera.
+jakob@jango-fett:~$ 
