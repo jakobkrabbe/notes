@@ -1,6 +1,9 @@
 # notes
 Personal notes but no secrets!
 
-Dirvish back-up: Look for lock-file! If found, remove!<br>
+```
+<b>Dirvish back-up:</b> 
+Look for lock-file! If found, remove!<br>
 $la -ls /srv/backup/*/dirvish/lock_file
 sudo rm -r /srv/backup/*/dirvish/lock_*
+```
