@@ -19,6 +19,8 @@ https://www.linode.com/docs/guides/how-to-use-tail/
 Mirror sites:
 wget https://ftp.lysator.liu.se/ubuntu-releases/22.04/ubuntu-22.04.3-live-server-amd64.iso
 
+How To Set Permanent DNS Nameservers in Ubuntu
+https://www.tecmint.com/set-permanent-dns-nameservers-in-ubuntu-debian/
 Nameserver reset:
 sudo nano /etc/resolv.conf
 
