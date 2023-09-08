@@ -21,6 +21,9 @@ wget https://ftp.lysator.liu.se/ubuntu-releases/22.04/ubuntu-22.04.3-live-server
 
 How To Set Permanent DNS Nameservers in Ubuntu
 https://www.tecmint.com/set-permanent-dns-nameservers-in-ubuntu-debian/
+$ sudo apt update
+$ sudo apt install resolvconf
+
 Nameserver reset:
 sudo nano /etc/resolv.conf
 
