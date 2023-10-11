@@ -29,4 +29,5 @@ sudo nano /etc/resolv.conf
 
 # nameserver 127.0.0.53
 nameserver 8.8.8.8
+search vertel.se
 ```
