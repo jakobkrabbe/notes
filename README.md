@@ -36,7 +36,7 @@ https://serverfault.com/questions/1087923/how-to-fix-ubuntu-not-getting-ip-addre
 1. sudo dhclient eth0
 1. sudo dhclient ens1
 2. sudo nano /etc/netplan/01-network-manager-all.yaml
-3. sudo netplan apply.
+3. sudo netplan apply
 
 
 nameserver 8.8.8.8
