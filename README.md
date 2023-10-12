@@ -31,6 +31,14 @@ sudo nano /etc/resolv.conf
 nameserver 8.8.8.8
 search vertel.se
 
+# No IP is given
+https://serverfault.com/questions/1087923/how-to-fix-ubuntu-not-getting-ip-address-on-hyper-v
+1. sudo dhclient eth0
+1. sudo dhclient ens1
+2. sudo nano /etc/netplan/01-network-manager-all.yaml
+3. sudo netplan apply.
+
+
 nameserver 8.8.8.8
 options edns0 trust-ad
 search vertel.se
