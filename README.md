@@ -43,4 +43,8 @@ nameserver 8.8.8.8
 options edns0 trust-ad
 search vertel.se
 
+# Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+1. chmod 600 /etc/netplan/your_config_file.yaml
+... should solve your problem. Do this for every netplan file that was listed in the warnings.
+
 ```
