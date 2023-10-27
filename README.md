@@ -37,7 +37,7 @@ https://serverfault.com/questions/1087923/how-to-fix-ubuntu-not-getting-ip-addre
 1. sudo dhclient ens1
 2. sudo nano /etc/netplan/01-network-manager-all.yaml
 3. sudo netplan apply
-
+4. Clean the disk! https://www.esds.co.in/kb/how-to-clean-up-ubuntu-server/
 
 nameserver 8.8.8.8
 options edns0 trust-ad
