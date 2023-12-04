@@ -42,6 +42,9 @@ https://serverfault.com/questions/1087923/how-to-fix-ubuntu-not-getting-ip-addre
 nameserver 8.8.8.8
 options edns0 trust-ad
 search vertel.se
+vertel@gluu20:~$ sudo nano /etc/apt/sources.list
+vertel@gluu20:~$ sudo apt update
+
 
 # Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
 1. chmod 600 /etc/netplan/your_config_file.yaml
