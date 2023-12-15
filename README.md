@@ -45,6 +45,11 @@ search vertel.se
 vertel@gluu20:~$ sudo nano /etc/apt/sources.list
 vertel@gluu20:~$ sudo apt update
 
+Swap-off
+sudo swapoff -a
+sudo nano /etc/sysctl.conf
+sudo rm -r swapoff.img
+
 
 # Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
 1. chmod 600 /etc/netplan/your_config_file.yaml
