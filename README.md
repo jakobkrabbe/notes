@@ -51,6 +51,12 @@ sudo nano /etc/sysctl.conf
 sudo rm -r swapoff.img
 
 
+List the most recent log
+jakob@bart:/var/log$ ls -lart
+
+
+
+
 # Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
 1. chmod 600 /etc/netplan/your_config_file.yaml
 ... should solve your problem. Do this for every netplan file that was listed in the warnings.
