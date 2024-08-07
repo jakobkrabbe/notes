@@ -54,6 +54,9 @@ sudo rm -r swapoff.img
 List the most recent log
 jakob@bart:/var/log$ ls -lart
 
+Install requirements
+/usr/share/odoo-crm/$ sudo pip3 install -r requirements.txt 
+
 
 
 
