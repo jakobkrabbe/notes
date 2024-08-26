@@ -57,6 +57,8 @@ jakob@bart:/var/log$ ls -lart
 Install requirements
 /usr/share/odoo-crm/$ sudo pip3 install -r requirements.txt 
 
+ Install 'jingtrang' for more precise and useful validation messages.
+pip3 install jingtrang
 
 
 
