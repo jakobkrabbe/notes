@@ -9,6 +9,11 @@ la -ls /srv/backup/*/dirvish/lock_file
 sudo rm -r /srv/backup/*/dirvish/lock_*
 ls | grep "Backup-begin:" /srv/backup/*/20230905/summary
 ls | grep "Backup-complete:" /srv/backup/*/20230905/summary
+
+Zabbix
+sudo apt purge zabbix-agent
+sudo apt install zabbix-agent
+sudo systemctl status zabbix-agent.service
 ```
 
 ```
